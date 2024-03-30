@@ -1,8 +1,8 @@
 <?php
 
-$apiKey       = 'DEV-pGrevoZ3SBo2vCiyGQNN7a5rzPoKbZTEIaKc3zkw'; //Masukan Apikey Tripay Kamu
-$privateKey   = 'ySD4N-i9pJt-Kle7p-iAxAF-6lIUc'; //Masukan Private_key Tripay Kamu
-$merchantCode = 'T24688'; //Masukan Marchant Kode Tripay Kamu
+$apiKey       = 'gFByHNmZKuDkfruMJlr93IB7TTR5yXMST9Xu0lO6'; //Masukan Apikey Tripay Kamu
+$privateKey   = 'HXURO-DlFTX-GgGyC-9wFUp-e4r0n'; //Masukan Private_key Tripay Kamu
+$merchantCode = 'T25548'; //Masukan Marchant Kode Tripay Kamu
 $merchantRef  = '280905'; // No Referensi creat dri website kamu
 $amount       = 50000; // Nominal request total pembayaran
 
@@ -16,8 +16,8 @@ $data = [
     'order_items'    => [
         [
             'sku'         => 'Contoh-Kode',
-            'name'        => 'naon weh',
-            'price'       => 150000,
+            'name'        => 'hegweh',
+            'price'       => 2000,
             'quantity'    => 1
         ]
     ],
