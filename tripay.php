@@ -9,7 +9,7 @@ $apiKey       = 'DEV-pGrevoZ3SBo2vCiyGQNN7a5rzPoKbZTEIaKc3zkw'; //Masukan Apikey
 $privateKey   = 'ySD4N-i9pJt-Kle7p-iAxAF-6lIUc'; //Masukan Private_key Tripay Kamu
 $merchantCode = 'T24688'; //Masukan Marchant Kode Tripay Kamu
 $merchantRef  = '280905'; // No Referensi creat dri website kamu
-$amount       = 150000; // Nominal request total pembayaran
+$amount       = 50000; // Nominal request total pembayaran
 
 $data = [
     'method'         => 'DANA', //bisa custom saya contohkan BRI sesuikan dengan nama channel pembayran tripay aja
@@ -22,7 +22,7 @@ $data = [
         [
             'sku'         => 'Contoh-Kode',
             'name'        => 'naon weh',
-            'price'       => 50000,
+            'price'       => 150000,
             'quantity'    => 1
         ]
     ],
