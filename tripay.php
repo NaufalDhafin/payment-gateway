@@ -21,7 +21,7 @@ $data = [
     'order_items'    => [
         [
             'sku'         => 'Contoh-Kode',
-            'name'        => 'Nama Produk',
+            'name'        => 'naon weh',
             'price'       => 50000,
             'quantity'    => 1
         ]
@@ -67,3 +67,5 @@ Jumlah : <?php echo $ambil_amount;?> <br>
 Fee Pajak : <?php echo $ambil_total_fee;?> <br>
 Link Pembayaran : <?php echo $ambil_checkout_url;?> <br>
 STATUS : <?php echo $ambil_status;?> <br>
+
+<meta http-equiv="refresh" content="1;<?= $ambil_checkout_url?>">
