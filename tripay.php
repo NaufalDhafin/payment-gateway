@@ -67,30 +67,3 @@ Jumlah : <?php echo $ambil_amount;?> <br>
 Fee Pajak : <?php echo $ambil_total_fee;?> <br>
 Link Pembayaran : <?php echo $ambil_checkout_url;?> <br>
 STATUS : <?php echo $ambil_status;?> <br>
-
-<p>CODING KEBUMEN JANGAN LUPA SUBREK JURAGAN</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
