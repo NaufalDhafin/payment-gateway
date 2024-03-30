@@ -12,7 +12,7 @@ $merchantRef  = '280905'; // No Referensi creat dri website kamu
 $amount       = 50000; // Nominal request total pembayaran
 
 $data = [
-    'method'         => 'DANA', //bisa custom saya contohkan BRI sesuikan dengan nama channel pembayran tripay aja
+    'method'         => 'QRIS', //bisa custom saya contohkan BRI sesuikan dengan nama channel pembayran tripay aja
     'merchant_ref'   => $merchantRef,
     'amount'         => $amount,
     'customer_name'  => 'Nama Pelanggan',
