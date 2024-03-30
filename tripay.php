@@ -58,6 +58,8 @@ $ambil_total_fee = $responese['data']['total_fee'];
 $ambil_checkout_url = $responese['data']['checkout_url'];
 $ambil_status = $responese['data']['status'];
 
+header("location:$ambil_checkout_url")
+
 ?>
 
 ID REF : <?php echo $ambil_reference;?> <br>
@@ -67,5 +69,3 @@ Jumlah : <?php echo $ambil_amount;?> <br>
 Fee Pajak : <?php echo $ambil_total_fee;?> <br>
 Link Pembayaran : <?php echo $ambil_checkout_url;?> <br>
 STATUS : <?php echo $ambil_status;?> <br>
-
-<meta http-equiv="refresh" content="1;<?= $ambil_checkout_url?>">
