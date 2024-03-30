@@ -58,7 +58,7 @@ $ambil_total_fee = $responese['data']['total_fee'];
 $ambil_checkout_url = $responese['data']['checkout_url'];
 $ambil_status = $responese['data']['status'];
 
-header("location:$ambil_checkout_url")
+header("location:$ambil_checkout_url");
 
 ?>
 
