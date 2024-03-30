@@ -8,7 +8,7 @@
 $apiKey       = 'DEV-pGrevoZ3SBo2vCiyGQNN7a5rzPoKbZTEIaKc3zkw'; //Masukan Apikey Tripay Kamu
 $privateKey   = 'ySD4N-i9pJt-Kle7p-iAxAF-6lIUc'; //Masukan Private_key Tripay Kamu
 $merchantCode = 'T24688'; //Masukan Marchant Kode Tripay Kamu
-$merchantRef  = 'INV55567'; // No Referensi creat dri website kamu
+$merchantRef  = '280905'; // No Referensi creat dri website kamu
 $amount       = 150000; // Nominal request total pembayaran
 
 $data = [
