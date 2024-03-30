@@ -26,7 +26,7 @@ $data = [
             'quantity'    => 1
         ]
     ],
-    'return_url'   => 'https://pfcsmmppob.kingspedia.com/text.php', //Isi Alamat Url Callback Untuk Menerima Request Yang Kamu Butuhkan
+    'return_url'   => 'https://pay.dhafin.my.id/callback.php', //Isi Alamat Url Callback Untuk Menerima Request Yang Kamu Butuhkan
     'expired_time' => (time() + (24 * 60 * 60)), // 24 jam
     'signature'    => hash_hmac('sha256', $merchantCode.$merchantRef.$amount, $privateKey)
 ];
@@ -35,7 +35,7 @@ $curl = curl_init();
 
 curl_setopt_array($curl, [
     CURLOPT_FRESH_CONNECT  => true,
-    CURLOPT_URL            => 'https://tripay.co.id/api/transaction/create', // Ini Kita Tes Mode Live / Produktion Ya
+    CURLOPT_URL            => 'https://tripay.co.id/api-sandbox/transaction/create', // Ini Kita Tes Mode Live / Produktion Ya
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_HEADER         => false,
     CURLOPT_HTTPHEADER     => ['Authorization: Bearer '.$apiKey],
