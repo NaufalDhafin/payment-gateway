@@ -1,9 +1,4 @@
 <?php
-//Jasa Pemuatan Website
-//Jasa Intregrasi Website
-//Jasa Pembuatan fitur dll
-//083191910986
-
 
 $apiKey       = 'DEV-pGrevoZ3SBo2vCiyGQNN7a5rzPoKbZTEIaKc3zkw'; //Masukan Apikey Tripay Kamu
 $privateKey   = 'ySD4N-i9pJt-Kle7p-iAxAF-6lIUc'; //Masukan Private_key Tripay Kamu
